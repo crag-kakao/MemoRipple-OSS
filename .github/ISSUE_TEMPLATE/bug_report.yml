@@ -1,0 +1,75 @@
+name: Bug report
+description: Something doesn't work as expected.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a bug.
+
+        **Please do not include personal memo, diary, chat, backup or credential data** in this report — describe the problem with made-up sample content instead.
+        Security issues should be reported privately; see [SECURITY.md](https://github.com/crag-kakao/MemoRipple-OSS/blob/main/.github/SECURITY.md).
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What went wrong?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open ...
+        2. Tap ...
+        3. See ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: input
+    id: android-version
+    attributes:
+      label: Android version
+      placeholder: e.g. Android 14 (API 34)
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Device or emulator
+      placeholder: e.g. Pixel 8, or Android Emulator API 36
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: MemoRipple OSS commit or version
+      description: The commit hash you built from, or the app version.
+      placeholder: e.g. 1c04602
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: Relevant logcat output, if any. Remove anything personal first.
+      render: shell
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: If useful, attach screenshots made with sample data only.
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context

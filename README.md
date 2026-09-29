@@ -187,6 +187,11 @@ it later if you want to.
   terms, All Rights Reserved — [BRANDING.md](BRANDING.md)
 - **Third-party components:** their respective licenses — [NOTICE](NOTICE)
 
+## Contributing and security
+
+- **Contributing:** see [CONTRIBUTING.md](CONTRIBUTING.md)
+- **Security issues:** please report privately — see [SECURITY.md](.github/SECURITY.md)
+
 ## Development notes
 
 `docs/` holds the design notes written while the app was developed —

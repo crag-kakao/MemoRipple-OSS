@@ -1,0 +1,53 @@
+name: Feature request
+description: Suggest an idea or an improvement.
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the suggestion. Please describe the problem you'd like to solve first — that helps more than a finished design.
+        Please don't include personal memo, diary, chat or backup data.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or motivation
+      description: What are you trying to do, and what gets in the way?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed idea
+      description: How could MemoRipple help?
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+  - type: dropdown
+    id: area
+    attributes:
+      label: Affected area
+      multiple: true
+      options:
+        - Memo
+        - Outliner
+        - Diary
+        - Calendar
+        - Note
+        - Comments
+        - Chat / Local AI
+        - Backup / Restore
+        - TTS
+        - UI / UX
+        - Other
+  - type: textarea
+    id: compatibility
+    attributes:
+      label: Compatibility concerns
+      description: Would this change stored data, backups, or existing behavior? Leave empty if you're not sure.
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
