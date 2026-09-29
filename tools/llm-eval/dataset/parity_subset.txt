@@ -1,0 +1,21 @@
+# parity subset: 20 fixed cases run on the Mac and the S20 (docs/LLM_PHASE0.md §7.2)
+intent_001
+intent_006
+intent_015
+intent_026
+intent_034
+intent_045
+param_001
+param_007
+param_012
+param_016
+date_001
+date_009
+date_021
+template_002
+template_018
+template_027
+ambiguous_003
+ambiguous_008
+halluc_002
+halluc_009

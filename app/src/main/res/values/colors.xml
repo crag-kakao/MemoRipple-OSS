@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="memo_primary">#1E6FD9</color>
+    <color name="memo_on_primary">#FFFFFF</color>
+    <color name="memo_secondary">#545F70</color>
+    <color name="memo_background">#F7F9FF</color>
+    <color name="memo_on_background">#171D1B</color>
+    <!-- Neutral placeholder icon colours (see BRANDING.md). -->
+    <color name="brand_icon_background">#ECEFF1</color>
+    <color name="brand_icon_mark">#607D8B</color>
+</resources>

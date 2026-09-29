@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The launch window on Android 12+ always draws an icon slot; this fills it with nothing,
+     so starting the app is one steady sweep of the background color instead of a flashed logo. -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@android:color/transparent" />
+</shape>

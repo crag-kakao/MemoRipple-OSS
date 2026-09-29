@@ -1,0 +1,4 @@
+{ "id": "idea", "name": "Idea", "fields": [
+  { "key": "title", "label": "タイトル", "required": true },
+  { "key": "summary", "label": "概要", "required": true },
+  { "key": "nextStep", "label": "次の一歩", "required": false } ] }

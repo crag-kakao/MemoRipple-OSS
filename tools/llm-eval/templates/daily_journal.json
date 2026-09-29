@@ -1,0 +1,4 @@
+{ "id": "daily_journal", "name": "Daily Journal", "fields": [
+  { "key": "events", "label": "出来事", "required": true },
+  { "key": "feeling", "label": "気持ち", "required": true },
+  { "key": "reflection", "label": "振り返り", "required": false } ] }

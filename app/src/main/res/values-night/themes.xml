@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.MemoRipple" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/memo_primary</item>
+        <item name="colorOnPrimary">@color/memo_on_primary</item>
+        <item name="colorSecondary">@color/memo_secondary</item>
+        <item name="android:colorBackground">@color/memo_background</item>
+        <item name="colorOnBackground">@color/memo_on_background</item>
+        <item name="android:windowBackground">@color/memo_background</item>
+        <item name="android:windowActionModeOverlay">true</item>
+    </style>
+</resources>

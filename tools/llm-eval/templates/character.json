@@ -1,0 +1,4 @@
+{ "id": "character", "name": "Character", "fields": [
+  { "key": "name", "label": "名前", "required": true },
+  { "key": "personality", "label": "性格", "required": false },
+  { "key": "appearance", "label": "外見", "required": false } ] }

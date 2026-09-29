@@ -1,0 +1,92 @@
+MemoRipple OSS
+Copyright 2026 The MemoRipple Authors
+
+This product includes software developed by the MemoRipple Authors,
+licensed under the Apache License, Version 2.0 (see LICENSE).
+
+--------------------------------------------------------------------------
+What the Apache License 2.0 covers
+--------------------------------------------------------------------------
+
+The Apache License 2.0 in LICENSE applies to the MemoRipple source code in
+this repository, except where a file or directory states otherwise.
+
+It does NOT apply to:
+
+  * Branding. The name "MemoRipple", the MemoRipple logos and app icons
+    (including the "言葉のしずく" icon), and the official original and
+    promotional artwork are not licensed under the Apache License 2.0.
+    All rights reserved. The official icon artwork is not included in this
+    repository; the icon resources here are neutral placeholders.
+    See BRANDING.md.
+
+  * Third-party components. They remain under their own licenses, listed
+    below.
+
+--------------------------------------------------------------------------
+Third-party components
+--------------------------------------------------------------------------
+
+The full list of third-party components included in the app, with their
+license texts, is generated from the release dependency graph by
+tools/generate_oss_assets.py and shipped in the app:
+
+  app/src/main/assets/oss/oss_licenses.json
+  app/src/main/assets/oss/licenses/
+  app/src/main/assets/oss/release-runtime-components.txt
+
+(see docs/OSS_LICENSES.md). The app shows the same information on its
+open-source licenses screen. Highlights:
+
+  * Noto Sans JP, Noto Serif JP (bundled fonts, app/src/main/res/font/)
+      SIL Open Font License 1.1
+      License text: app/src/main/assets/oss/licenses/ofl-1.1-noto-sans-jp.txt
+                    app/src/main/assets/oss/licenses/ofl-1.1-noto-serif-jp.txt
+
+  * Kosugi Maru (bundled font, app/src/main/res/font/kosugi_maru.ttf)
+      Apache License 2.0 (MOTOYA, distributed through Google Fonts)
+
+  * llama.cpp / ggml (git submodule llmbench/src/main/cpp/llama.cpp,
+    compiled into the app's native library), including nlohmann/json
+      MIT License, Copyright (c) 2023-2026 The ggml authors;
+      nlohmann/json: MIT License, Copyright (c) 2013-2025 Niels Lohmann
+      License text: llmbench/src/main/cpp/llama.cpp/LICENSE and
+                    app/src/main/assets/oss/licenses/mit-llama-cpp.txt
+
+  * Unicode Character Database (tables generated into llama.cpp)
+      Unicode License v3
+      License text: app/src/main/assets/oss/licenses/unicode-3.0.txt
+
+  * LLVM libc++ (Android NDK C++ runtime, libc++_shared.so)
+      Apache License 2.0 with LLVM Exceptions
+      License text:
+        app/src/main/assets/oss/licenses/apache-2.0-with-llvm-exception.txt
+
+  * MaterialKolor
+      MIT License, Copyright (c) 2025 Jordon de Hoog
+      License text: app/src/main/assets/oss/licenses/mit-materialkolor.txt
+
+  * AndroidX / Jetpack Compose, Material Components for Android, Kotlin,
+    Kotlin Coroutines, Kotlin Serialization, Okio and other libraries
+      Apache License 2.0
+
+  * Colormath
+      MIT License
+
+  * DataStore external Protocol Buffers
+      BSD 3-Clause License
+
+  * Google Play services libraries
+      Android Software Development Kit License and the third-party
+      notices in app/src/main/assets/oss/licenses/google-play-services-third-party.txt
+
+All other third-party components are distributed under their respective
+licenses, as recorded in the files above.
+
+--------------------------------------------------------------------------
+Local AI models
+--------------------------------------------------------------------------
+
+No AI model file (GGUF) is included in this repository or in the app.
+Models are downloaded by the user from Hugging Face at run time and are
+governed by their own licenses.

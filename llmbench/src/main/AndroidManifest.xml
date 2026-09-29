@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Local LLM Phase 0 bench (docs/LLM_PHASE0.md). A separate app: its own id, its own
+         external-files directory for models and results; no permissions beyond what the
+         platform grants a plain app. Never a dependency of :app. -->
+    <application
+        android:label="MemoRipple LLM Bench"
+        android:allowBackup="false"
+        android:largeHeap="true"
+        android:theme="@android:style/Theme.DeviceDefault.NoActionBar">
+        <activity
+            android:name=".BenchActivity"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

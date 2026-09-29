@@ -1,0 +1,2302 @@
+{
+  "schemaVersion": 1,
+  "generatedFrom": ":app:releaseRuntimeClasspath",
+  "componentCount": 202,
+  "directComponentCount": 19,
+  "transitiveComponentCount": 183,
+  "libraries": [
+    {
+      "id": "androidx",
+      "name": "AndroidX / Jetpack Compose",
+      "licenseName": "Apache License 2.0",
+      "licenseIdentifier": "Apache-2.0",
+      "notice": "POM metadata and bundled META-INF license files were reviewed. No standalone NOTICE file was present in the resolved AndroidX artifacts.",
+      "licenseTextAsset": "licenses/apache-2.0.txt",
+      "components": [
+        "androidx.activity:activity-compose:1.12.2",
+        "androidx.activity:activity-ktx:1.12.2",
+        "androidx.activity:activity:1.12.2",
+        "androidx.annotation:annotation-experimental:1.5.0",
+        "androidx.annotation:annotation-jvm:1.9.1",
+        "androidx.annotation:annotation:1.9.1",
+        "androidx.appcompat:appcompat-resources:1.7.0",
+        "androidx.appcompat:appcompat:1.7.0",
+        "androidx.arch.core:core-common:2.2.0",
+        "androidx.arch.core:core-runtime:2.2.0",
+        "androidx.autofill:autofill:1.0.0",
+        "androidx.cardview:cardview:1.0.0",
+        "androidx.collection:collection-jvm:1.5.0",
+        "androidx.collection:collection-ktx:1.5.0",
+        "androidx.collection:collection:1.5.0",
+        "androidx.compose.animation:animation-android:1.10.0",
+        "androidx.compose.animation:animation-core-android:1.10.0",
+        "androidx.compose.animation:animation-core:1.10.0",
+        "androidx.compose.animation:animation:1.10.0",
+        "androidx.compose.foundation:foundation-android:1.10.0",
+        "androidx.compose.foundation:foundation-layout-android:1.10.0",
+        "androidx.compose.foundation:foundation-layout:1.10.0",
+        "androidx.compose.foundation:foundation:1.10.0",
+        "androidx.compose.material3:material3-android:1.4.0",
+        "androidx.compose.material3:material3:1.4.0",
+        "androidx.compose.material:material-icons-core-android:1.7.8",
+        "androidx.compose.material:material-icons-core:1.7.8",
+        "androidx.compose.material:material-icons-extended-android:1.7.8",
+        "androidx.compose.material:material-icons-extended:1.7.8",
+        "androidx.compose.material:material-ripple-android:1.10.0",
+        "androidx.compose.material:material-ripple:1.10.0",
+        "androidx.compose.runtime:runtime-android:1.10.0",
+        "androidx.compose.runtime:runtime-annotation-android:1.10.0",
+        "androidx.compose.runtime:runtime-annotation:1.10.0",
+        "androidx.compose.runtime:runtime-retain-android:1.10.0",
+        "androidx.compose.runtime:runtime-retain:1.10.0",
+        "androidx.compose.runtime:runtime-saveable-android:1.10.0",
+        "androidx.compose.runtime:runtime-saveable:1.10.0",
+        "androidx.compose.runtime:runtime:1.10.0",
+        "androidx.compose.ui:ui-android:1.10.0",
+        "androidx.compose.ui:ui-geometry-android:1.10.0",
+        "androidx.compose.ui:ui-geometry:1.10.0",
+        "androidx.compose.ui:ui-graphics-android:1.10.0",
+        "androidx.compose.ui:ui-graphics:1.10.0",
+        "androidx.compose.ui:ui-text-android:1.10.0",
+        "androidx.compose.ui:ui-text:1.10.0",
+        "androidx.compose.ui:ui-tooling-preview-android:1.10.0",
+        "androidx.compose.ui:ui-tooling-preview:1.10.0",
+        "androidx.compose.ui:ui-unit-android:1.10.0",
+        "androidx.compose.ui:ui-unit:1.10.0",
+        "androidx.compose.ui:ui-util-android:1.10.0",
+        "androidx.compose.ui:ui-util:1.10.0",
+        "androidx.compose.ui:ui:1.10.0",
+        "androidx.compose:compose-bom:2025.12.01",
+        "androidx.concurrent:concurrent-futures:1.1.0",
+        "androidx.constraintlayout:constraintlayout-core:1.0.0",
+        "androidx.constraintlayout:constraintlayout:2.1.0",
+        "androidx.coordinatorlayout:coordinatorlayout:1.1.0",
+        "androidx.core:core-ktx:1.17.0",
+        "androidx.core:core-viewtree:1.0.0",
+        "androidx.core:core:1.17.0",
+        "androidx.cursoradapter:cursoradapter:1.0.0",
+        "androidx.customview:customview-poolingcontainer:1.0.0",
+        "androidx.customview:customview:1.1.0",
+        "androidx.datastore:datastore-android:1.2.1",
+        "androidx.datastore:datastore-core-android:1.2.1",
+        "androidx.datastore:datastore-core-okio-jvm:1.2.1",
+        "androidx.datastore:datastore-core-okio:1.2.1",
+        "androidx.datastore:datastore-core:1.2.1",
+        "androidx.datastore:datastore-preferences-android:1.2.1",
+        "androidx.datastore:datastore-preferences-core-android:1.2.1",
+        "androidx.datastore:datastore-preferences-core:1.2.1",
+        "androidx.datastore:datastore-preferences-proto:1.2.1",
+        "androidx.datastore:datastore-preferences:1.2.1",
+        "androidx.datastore:datastore:1.2.1",
+        "androidx.drawerlayout:drawerlayout:1.1.1",
+        "androidx.dynamicanimation:dynamicanimation:1.1.0",
+        "androidx.emoji2:emoji2-views-helper:1.4.0",
+        "androidx.emoji2:emoji2:1.4.0",
+        "androidx.fragment:fragment:1.5.7",
+        "androidx.graphics:graphics-path:1.0.1",
+        "androidx.graphics:graphics-shapes-android:1.0.1",
+        "androidx.graphics:graphics-shapes:1.0.1",
+        "androidx.interpolator:interpolator:1.0.0",
+        "androidx.lifecycle:lifecycle-common-java8:2.10.0",
+        "androidx.lifecycle:lifecycle-common-jvm:2.10.0",
+        "androidx.lifecycle:lifecycle-common:2.10.0",
+        "androidx.lifecycle:lifecycle-livedata-core:2.10.0",
+        "androidx.lifecycle:lifecycle-process:2.10.0",
+        "androidx.lifecycle:lifecycle-runtime-android:2.10.0",
+        "androidx.lifecycle:lifecycle-runtime-compose-android:2.10.0",
+        "androidx.lifecycle:lifecycle-runtime-compose:2.10.0",
+        "androidx.lifecycle:lifecycle-runtime-ktx-android:2.10.0",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.10.0",
+        "androidx.lifecycle:lifecycle-runtime:2.10.0",
+        "androidx.lifecycle:lifecycle-viewmodel-android:2.10.0",
+        "androidx.lifecycle:lifecycle-viewmodel-compose-android:2.10.0",
+        "androidx.lifecycle:lifecycle-viewmodel-compose:2.10.0",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.10.0",
+        "androidx.lifecycle:lifecycle-viewmodel-savedstate-android:2.10.0",
+        "androidx.lifecycle:lifecycle-viewmodel-savedstate:2.10.0",
+        "androidx.lifecycle:lifecycle-viewmodel:2.10.0",
+        "androidx.loader:loader:1.1.0",
+        "androidx.navigation:navigation-common-android:2.9.6",
+        "androidx.navigation:navigation-common:2.9.6",
+        "androidx.navigation:navigation-compose-android:2.9.6",
+        "androidx.navigation:navigation-compose:2.9.6",
+        "androidx.navigation:navigation-runtime-android:2.9.6",
+        "androidx.navigation:navigation-runtime:2.9.6",
+        "androidx.navigationevent:navigationevent-android:1.0.1",
+        "androidx.navigationevent:navigationevent-compose-android:1.0.1",
+        "androidx.navigationevent:navigationevent-compose:1.0.1",
+        "androidx.navigationevent:navigationevent:1.0.1",
+        "androidx.profileinstaller:profileinstaller:1.4.1",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "androidx.resourceinspection:resourceinspection-annotation:1.0.1",
+        "androidx.room:room-common-jvm:2.8.4",
+        "androidx.room:room-common:2.8.4",
+        "androidx.room:room-ktx:2.8.4",
+        "androidx.room:room-runtime-android:2.8.4",
+        "androidx.room:room-runtime:2.8.4",
+        "androidx.savedstate:savedstate-android:1.4.0",
+        "androidx.savedstate:savedstate-compose-android:1.4.0",
+        "androidx.savedstate:savedstate-compose:1.4.0",
+        "androidx.savedstate:savedstate-ktx:1.4.0",
+        "androidx.savedstate:savedstate:1.4.0",
+        "androidx.sqlite:sqlite-android:2.6.2",
+        "androidx.sqlite:sqlite-framework-android:2.6.2",
+        "androidx.sqlite:sqlite-framework:2.6.2",
+        "androidx.sqlite:sqlite:2.6.2",
+        "androidx.startup:startup-runtime:1.1.1",
+        "androidx.tracing:tracing:1.2.0",
+        "androidx.transition:transition:1.6.0",
+        "androidx.vectordrawable:vectordrawable-animated:1.1.0",
+        "androidx.vectordrawable:vectordrawable:1.1.0",
+        "androidx.versionedparcelable:versionedparcelable:1.1.1",
+        "androidx.viewpager2:viewpager2:1.0.0",
+        "androidx.viewpager:viewpager:1.0.0",
+        "androidx.window:window-core-android:1.5.0",
+        "androidx.window:window-core:1.5.0",
+        "androidx.window:window:1.5.0"
+      ]
+    },
+    {
+      "id": "colormath",
+      "name": "Colormath",
+      "licenseName": "The MIT License",
+      "licenseIdentifier": "MIT",
+      "notice": "License source: resolved Colormath POM metadata; licence text from the project's LICENSE.txt.",
+      "licenseTextAsset": "licenses/mit-colormath.txt",
+      "components": [
+        "com.github.ajalt.colormath:colormath-jvm:3.6.1",
+        "com.github.ajalt.colormath:colormath:3.6.1"
+      ]
+    },
+    {
+      "id": "compose-multiplatform",
+      "name": "Compose Multiplatform (JetBrains)",
+      "licenseName": "Apache License 2.0",
+      "licenseIdentifier": "Apache-2.0",
+      "notice": "License source: resolved JetBrains Compose/androidx-port POM metadata. Pulled in as MaterialKolor's multiplatform runtime; on Android these delegate to AndroidX.",
+      "licenseTextAsset": "licenses/apache-2.0.txt",
+      "components": [
+        "org.jetbrains.androidx.lifecycle:lifecycle-common:2.9.6",
+        "org.jetbrains.androidx.lifecycle:lifecycle-runtime-compose:2.9.6",
+        "org.jetbrains.androidx.lifecycle:lifecycle-runtime:2.9.6",
+        "org.jetbrains.androidx.lifecycle:lifecycle-viewmodel-savedstate:2.9.6",
+        "org.jetbrains.androidx.lifecycle:lifecycle-viewmodel:2.9.6",
+        "org.jetbrains.androidx.savedstate:savedstate-compose:1.3.6",
+        "org.jetbrains.androidx.savedstate:savedstate:1.3.6",
+        "org.jetbrains.compose.animation:animation-core:1.9.0-beta03",
+        "org.jetbrains.compose.animation:animation:1.9.0-beta03",
+        "org.jetbrains.compose.annotation-internal:annotation:1.9.3",
+        "org.jetbrains.compose.collection-internal:collection:1.9.3",
+        "org.jetbrains.compose.foundation:foundation-layout:1.9.0-beta03",
+        "org.jetbrains.compose.foundation:foundation:1.9.0-beta03",
+        "org.jetbrains.compose.material3:material3:1.9.0-beta03",
+        "org.jetbrains.compose.material:material-ripple:1.9.0-beta03",
+        "org.jetbrains.compose.runtime:runtime-saveable:1.9.3",
+        "org.jetbrains.compose.runtime:runtime:1.9.3",
+        "org.jetbrains.compose.ui:ui-backhandler-android:1.9.0-beta03",
+        "org.jetbrains.compose.ui:ui-backhandler:1.9.0-beta03",
+        "org.jetbrains.compose.ui:ui-geometry:1.9.3",
+        "org.jetbrains.compose.ui:ui-graphics:1.9.3",
+        "org.jetbrains.compose.ui:ui-text:1.9.3",
+        "org.jetbrains.compose.ui:ui-unit:1.9.3",
+        "org.jetbrains.compose.ui:ui-util:1.9.3",
+        "org.jetbrains.compose.ui:ui:1.9.3"
+      ]
+    },
+    {
+      "id": "datastore-external-protobuf",
+      "name": "DataStore external Protocol Buffers",
+      "licenseName": "BSD 3-Clause License",
+      "licenseIdentifier": "BSD-3-Clause",
+      "notice": "The DataStore artifact POM and its bundled LICENSE identify BSD-3-Clause.",
+      "licenseTextAsset": "licenses/bsd-3-clause.txt",
+      "components": [
+        "androidx.datastore:datastore-preferences-external-protobuf:1.2.1"
+      ]
+    },
+    {
+      "id": "error-prone-annotations",
+      "name": "Error Prone Annotations",
+      "licenseName": "Apache License 2.0",
+      "licenseIdentifier": "Apache-2.0",
+      "notice": "License source: resolved artifact POM metadata.",
+      "licenseTextAsset": "licenses/apache-2.0.txt",
+      "components": [
+        "com.google.errorprone:error_prone_annotations:2.15.0"
+      ]
+    },
+    {
+      "id": "google-play-services-third-party",
+      "name": "Google Play services – third-party notices",
+      "licenseName": "Multiple open-source licenses",
+      "licenseIdentifier": null,
+      "notice": "License text content comes from third_party_licenses.json/text bundled in the resolved Google Play services AARs. Whitespace and separator lines are normalized before deterministic grouping.",
+      "licenseTextAsset": "licenses/google-play-services-third-party.txt",
+      "components": [
+        "com.google.android.gms:play-services-auth-api-phone:18.0.2",
+        "com.google.android.gms:play-services-auth-base:18.0.10",
+        "com.google.android.gms:play-services-auth:21.6.0",
+        "com.google.android.gms:play-services-base:18.5.0",
+        "com.google.android.gms:play-services-basement:18.9.0",
+        "com.google.android.gms:play-services-fido:20.0.1",
+        "com.google.android.gms:play-services-tasks:18.2.0"
+      ]
+    },
+    {
+      "id": "guava-listenablefuture",
+      "name": "Guava ListenableFuture",
+      "licenseName": "Apache License 2.0",
+      "licenseIdentifier": "Apache-2.0",
+      "notice": "License source: inherited Guava parent POM metadata and the bundled source header.",
+      "licenseTextAsset": "licenses/apache-2.0.txt",
+      "components": [
+        "com.google.guava:listenablefuture:1.0"
+      ]
+    },
+    {
+      "id": "jetbrains-annotations",
+      "name": "JetBrains Annotations",
+      "licenseName": "Apache License 2.0",
+      "licenseIdentifier": "Apache-2.0",
+      "notice": "License source: resolved artifact POM metadata.",
+      "licenseTextAsset": "licenses/apache-2.0.txt",
+      "components": [
+        "org.jetbrains:annotations:23.0.0"
+      ]
+    },
+    {
+      "id": "jspecify",
+      "name": "JSpecify",
+      "licenseName": "Apache License 2.0",
+      "licenseIdentifier": "Apache-2.0",
+      "notice": "License source: resolved artifact POM metadata.",
+      "licenseTextAsset": "licenses/apache-2.0.txt",
+      "components": [
+        "org.jspecify:jspecify:1.0.0"
+      ]
+    },
+    {
+      "id": "kosugi-maru-font",
+      "name": "Kosugi Maru",
+      "licenseName": "Apache License 2.0",
+      "licenseIdentifier": "Apache-2.0",
+      "notice": "Kosugi Maru is a rounded Japanese typeface by MOTOYA, distributed through Google Fonts under the Apache License 2.0. The font file is bundled as an app resource (res/font/kosugi_maru.ttf) for the 丸文字体 comment-font setting; it is not a Maven runtime component.",
+      "licenseTextAsset": "licenses/apache-2.0.txt",
+      "components": [
+        "font:kosugi-maru:regular"
+      ]
+    },
+    {
+      "id": "kotlin",
+      "name": "Kotlin",
+      "licenseName": "Apache License 2.0",
+      "licenseIdentifier": "Apache-2.0",
+      "notice": "License source: resolved Kotlin POM metadata.",
+      "licenseTextAsset": "licenses/apache-2.0.txt",
+      "components": [
+        "org.jetbrains.kotlin:kotlin-bom:1.8.22",
+        "org.jetbrains.kotlin:kotlin-stdlib-common:2.3.21",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.3.21"
+      ]
+    },
+    {
+      "id": "kotlin-coroutines",
+      "name": "Kotlin Coroutines",
+      "licenseName": "Apache License 2.0",
+      "licenseIdentifier": "Apache-2.0",
+      "notice": "License source: resolved Kotlin Coroutines POM metadata.",
+      "licenseTextAsset": "licenses/apache-2.0.txt",
+      "components": [
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.9.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-bom:1.9.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.9.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.9.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.9.0"
+      ]
+    },
+    {
+      "id": "kotlin-serialization",
+      "name": "Kotlin Serialization",
+      "licenseName": "Apache License 2.0",
+      "licenseIdentifier": "Apache-2.0",
+      "notice": "License source: resolved Kotlin Serialization POM metadata.",
+      "licenseTextAsset": "licenses/apache-2.0.txt",
+      "components": [
+        "org.jetbrains.kotlinx:kotlinx-serialization-bom:1.11.0",
+        "org.jetbrains.kotlinx:kotlinx-serialization-core-jvm:1.11.0",
+        "org.jetbrains.kotlinx:kotlinx-serialization-core:1.11.0",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json-jvm:1.11.0",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.11.0"
+      ]
+    },
+    {
+      "id": "llama-cpp",
+      "name": "llama.cpp",
+      "licenseName": "The MIT License",
+      "licenseIdentifier": "MIT",
+      "notice": "llama.cpp and ggml (github.com/ggml-org/llama.cpp, revision b11039-2-g4fea119de), compiled into the native library libmemoripple_llm.so for the on-device Local AI. The text carries llama.cpp's LICENSE, the licence of the nlohmann/json header it bundles and links, and the MIT attributions its sources state for adapted code. Reviewed from the pinned submodule and the linked symbols; cpp-httplib, subprocess.h, llguidance, llamafile and KleidiAI are not linked. It is not a Maven runtime component.",
+      "licenseTextAsset": "licenses/mit-llama-cpp.txt",
+      "components": [
+        "native:llama.cpp:b11039-2-g4fea119de",
+        "native:nlohmann-json:3.12.0"
+      ]
+    },
+    {
+      "id": "llvm-libcxx",
+      "name": "LLVM libc++",
+      "licenseName": "Apache License 2.0 with LLVM Exceptions",
+      "licenseIdentifier": "Apache-2.0 WITH LLVM-exception",
+      "notice": "The shared C++ runtime libc++_shared.so from Android NDK 29.0.14206865, packaged because the native Local AI runtime is built with it. Licence text from the NDK's LLVM toolchain NOTICE. It is not a Maven runtime component.",
+      "licenseTextAsset": "licenses/apache-2.0-with-llvm-exception.txt",
+      "components": [
+        "native:llvm-libc++:ndk-29.0.14206865"
+      ]
+    },
+    {
+      "id": "material-components",
+      "name": "Material Components for Android",
+      "licenseName": "Apache License 2.0",
+      "licenseIdentifier": "Apache-2.0",
+      "notice": "License source: resolved artifact POM metadata.",
+      "licenseTextAsset": "licenses/apache-2.0.txt",
+      "components": [
+        "com.google.android.material:material:1.13.0"
+      ]
+    },
+    {
+      "id": "materialkolor",
+      "name": "MaterialKolor",
+      "licenseName": "The MIT License",
+      "licenseIdentifier": "MIT",
+      "notice": "License source: resolved MaterialKolor POM metadata (MIT); licence text from the project's LICENSE at tag 4.0.5. Ports Material Color Utilities for seed-colour scheme generation (テーマカラー/パレットスタイル); the ported files carry Google's Apache License 2.0 headers, whose text is listed under Apache License 2.0.",
+      "licenseTextAsset": "licenses/mit-materialkolor.txt",
+      "components": [
+        "com.materialkolor:material-color-utilities-android:4.0.5",
+        "com.materialkolor:material-color-utilities:4.0.5",
+        "com.materialkolor:material-kolor-android:4.0.5",
+        "com.materialkolor:material-kolor:4.0.5"
+      ]
+    },
+    {
+      "id": "noto-sans-jp-font",
+      "name": "Noto Sans JP",
+      "licenseName": "SIL Open Font License 1.1",
+      "licenseIdentifier": "OFL-1.1",
+      "notice": "Noto Sans JP is a Japanese gothic (sans) typeface from the Noto project, distributed through Google Fonts under the SIL Open Font License 1.1. The variable font file is bundled as an app resource (res/font/noto_sans_jp.ttf) for the ゴシック体 comment-font setting; it is not a Maven runtime component.",
+      "licenseTextAsset": "licenses/ofl-1.1-noto-sans-jp.txt",
+      "components": [
+        "font:noto-sans-jp:variable"
+      ]
+    },
+    {
+      "id": "noto-serif-jp-font",
+      "name": "Noto Serif JP",
+      "licenseName": "SIL Open Font License 1.1",
+      "licenseIdentifier": "OFL-1.1",
+      "notice": "Noto Serif JP is a Japanese serif (mincho) typeface from the Noto project, distributed through Google Fonts under the SIL Open Font License 1.1. The variable font file is bundled as an app resource (res/font/noto_serif_jp.ttf) for the 明朝体 comment-font setting; it is not a Maven runtime component.",
+      "licenseTextAsset": "licenses/ofl-1.1-noto-serif-jp.txt",
+      "components": [
+        "font:noto-serif-jp:variable"
+      ]
+    },
+    {
+      "id": "okio",
+      "name": "Okio",
+      "licenseName": "Apache License 2.0",
+      "licenseIdentifier": "Apache-2.0",
+      "notice": "License source: resolved Okio POM metadata.",
+      "licenseTextAsset": "licenses/apache-2.0.txt",
+      "components": [
+        "com.squareup.okio:okio-jvm:3.9.1",
+        "com.squareup.okio:okio:3.9.1"
+      ]
+    },
+    {
+      "id": "poko-annotations",
+      "name": "Poko Annotations",
+      "licenseName": "Apache License 2.0",
+      "licenseIdentifier": "Apache-2.0",
+      "notice": "License source: resolved Poko POM metadata.",
+      "licenseTextAsset": "licenses/apache-2.0.txt",
+      "components": [
+        "dev.drewhamilton.poko:poko-annotations-jvm:0.20.2",
+        "dev.drewhamilton.poko:poko-annotations:0.20.2"
+      ]
+    },
+    {
+      "id": "unicode-data",
+      "name": "Unicode Character Database",
+      "licenseName": "Unicode License v3",
+      "licenseIdentifier": "Unicode-3.0",
+      "notice": "Tables in llama.cpp's src/unicode-data.cpp, generated by scripts/gen-unicode-data.py from the Unicode Character Database (UnicodeData.txt; whitespace per PropList.txt; NFD through Python's unicodedata), linked into libmemoripple_llm.so. The UCD version used is not recorded in the source. Licence text: the Unicode License V3 copy in Android NDK 29.0.14206865's NOTICE.toolchain, verbatim. It is not a Maven runtime component.",
+      "licenseTextAsset": "licenses/unicode-3.0.txt",
+      "components": [
+        "native:unicode-character-database:llama.cpp-b11039"
+      ]
+    }
+  ],
+  "nonOpenSourceTerms": [
+    {
+      "coordinate": "com.google.android.gms:play-services-auth-api-phone:18.0.2",
+      "termsName": "Android Software Development Kit License",
+      "termsUrl": "https://developer.android.com/studio/terms.html",
+      "metadataSource": "POM com.google.android.gms:play-services-auth-api-phone:18.0.2"
+    },
+    {
+      "coordinate": "com.google.android.gms:play-services-auth-base:18.0.10",
+      "termsName": "Android Software Development Kit License",
+      "termsUrl": "https://developer.android.com/studio/terms.html",
+      "metadataSource": "POM com.google.android.gms:play-services-auth-base:18.0.10"
+    },
+    {
+      "coordinate": "com.google.android.gms:play-services-auth:21.6.0",
+      "termsName": "Android Software Development Kit License",
+      "termsUrl": "https://developer.android.com/studio/terms.html",
+      "metadataSource": "POM com.google.android.gms:play-services-auth:21.6.0"
+    },
+    {
+      "coordinate": "com.google.android.gms:play-services-base:18.5.0",
+      "termsName": "Android Software Development Kit License",
+      "termsUrl": "https://developer.android.com/studio/terms.html",
+      "metadataSource": "POM com.google.android.gms:play-services-base:18.5.0"
+    },
+    {
+      "coordinate": "com.google.android.gms:play-services-basement:18.9.0",
+      "termsName": "Android Software Development Kit License",
+      "termsUrl": "https://developer.android.com/studio/terms.html",
+      "metadataSource": "POM com.google.android.gms:play-services-basement:18.9.0"
+    },
+    {
+      "coordinate": "com.google.android.gms:play-services-fido:20.0.1",
+      "termsName": "Android Software Development Kit License",
+      "termsUrl": "https://developer.android.com/studio/terms.html",
+      "metadataSource": "POM com.google.android.gms:play-services-fido:20.0.1"
+    },
+    {
+      "coordinate": "com.google.android.gms:play-services-tasks:18.2.0",
+      "termsName": "Android Software Development Kit License",
+      "termsUrl": "https://developer.android.com/studio/terms.html",
+      "metadataSource": "POM com.google.android.gms:play-services-tasks:18.2.0"
+    }
+  ],
+  "runtimeComponents": [
+    {
+      "coordinate": "androidx.activity:activity-compose:1.12.2",
+      "dependencyKind": "direct",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.activity:activity-compose:1.12.2",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.activity:activity-ktx:1.12.2",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.activity:activity-ktx:1.12.2",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.activity:activity:1.12.2",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.activity:activity:1.12.2",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.annotation:annotation-experimental:1.5.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.annotation:annotation-experimental:1.5.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.annotation:annotation-jvm:1.9.1",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.annotation:annotation-jvm:1.9.1",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.annotation:annotation:1.9.1",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.annotation:annotation:1.9.1",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.appcompat:appcompat-resources:1.7.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.appcompat:appcompat-resources:1.7.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.appcompat:appcompat:1.7.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.appcompat:appcompat:1.7.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.arch.core:core-common:2.2.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.arch.core:core-common:2.2.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.arch.core:core-runtime:2.2.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.arch.core:core-runtime:2.2.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.autofill:autofill:1.0.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.autofill:autofill:1.0.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.cardview:cardview:1.0.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.cardview:cardview:1.0.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.collection:collection-jvm:1.5.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.collection:collection-jvm:1.5.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.collection:collection-ktx:1.5.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.collection:collection-ktx:1.5.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.collection:collection:1.5.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.collection:collection:1.5.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.compose.animation:animation-android:1.10.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.compose.animation:animation-android:1.10.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.compose.animation:animation-core-android:1.10.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.compose.animation:animation-core-android:1.10.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.compose.animation:animation-core:1.10.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.compose.animation:animation-core:1.10.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.compose.animation:animation:1.10.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.compose.animation:animation:1.10.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.compose.foundation:foundation-android:1.10.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.compose.foundation:foundation-android:1.10.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.compose.foundation:foundation-layout-android:1.10.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.compose.foundation:foundation-layout-android:1.10.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.compose.foundation:foundation-layout:1.10.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.compose.foundation:foundation-layout:1.10.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.compose.foundation:foundation:1.10.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.compose.foundation:foundation:1.10.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.compose.material3:material3-android:1.4.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.compose.material3:material3-android:1.4.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.compose.material3:material3:1.4.0",
+      "dependencyKind": "direct",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.compose.material3:material3:1.4.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.compose.material:material-icons-core-android:1.7.8",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.compose.material:material-icons-core-android:1.7.8",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.compose.material:material-icons-core:1.7.8",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.compose.material:material-icons-core:1.7.8",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.compose.material:material-icons-extended-android:1.7.8",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.compose.material:material-icons-extended-android:1.7.8",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.compose.material:material-icons-extended:1.7.8",
+      "dependencyKind": "direct",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.compose.material:material-icons-extended:1.7.8",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.compose.material:material-ripple-android:1.10.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.compose.material:material-ripple-android:1.10.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.compose.material:material-ripple:1.10.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.compose.material:material-ripple:1.10.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.compose.runtime:runtime-android:1.10.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.compose.runtime:runtime-android:1.10.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.compose.runtime:runtime-annotation-android:1.10.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.compose.runtime:runtime-annotation-android:1.10.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.compose.runtime:runtime-annotation:1.10.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.compose.runtime:runtime-annotation:1.10.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.compose.runtime:runtime-retain-android:1.10.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.compose.runtime:runtime-retain-android:1.10.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.compose.runtime:runtime-retain:1.10.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.compose.runtime:runtime-retain:1.10.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.compose.runtime:runtime-saveable-android:1.10.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.compose.runtime:runtime-saveable-android:1.10.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.compose.runtime:runtime-saveable:1.10.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.compose.runtime:runtime-saveable:1.10.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.compose.runtime:runtime:1.10.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.compose.runtime:runtime:1.10.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.compose.ui:ui-android:1.10.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.compose.ui:ui-android:1.10.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.compose.ui:ui-geometry-android:1.10.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.compose.ui:ui-geometry-android:1.10.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.compose.ui:ui-geometry:1.10.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.compose.ui:ui-geometry:1.10.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.compose.ui:ui-graphics-android:1.10.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.compose.ui:ui-graphics-android:1.10.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.compose.ui:ui-graphics:1.10.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.compose.ui:ui-graphics:1.10.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.compose.ui:ui-text-android:1.10.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.compose.ui:ui-text-android:1.10.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.compose.ui:ui-text:1.10.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.compose.ui:ui-text:1.10.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.compose.ui:ui-tooling-preview-android:1.10.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.compose.ui:ui-tooling-preview-android:1.10.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.compose.ui:ui-tooling-preview:1.10.0",
+      "dependencyKind": "direct",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.compose.ui:ui-tooling-preview:1.10.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.compose.ui:ui-unit-android:1.10.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.compose.ui:ui-unit-android:1.10.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.compose.ui:ui-unit:1.10.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.compose.ui:ui-unit:1.10.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.compose.ui:ui-util-android:1.10.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.compose.ui:ui-util-android:1.10.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.compose.ui:ui-util:1.10.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.compose.ui:ui-util:1.10.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.compose.ui:ui:1.10.0",
+      "dependencyKind": "direct",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.compose.ui:ui:1.10.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.compose:compose-bom:2025.12.01",
+      "dependencyKind": "direct",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.compose:compose-bom:2025.12.01",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.concurrent:concurrent-futures:1.1.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.concurrent:concurrent-futures:1.1.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.constraintlayout:constraintlayout-core:1.0.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.constraintlayout:constraintlayout-core:1.0.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.constraintlayout:constraintlayout:2.1.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.constraintlayout:constraintlayout:2.1.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.coordinatorlayout:coordinatorlayout:1.1.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.coordinatorlayout:coordinatorlayout:1.1.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.core:core-ktx:1.17.0",
+      "dependencyKind": "direct",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.core:core-ktx:1.17.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.core:core-viewtree:1.0.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.core:core-viewtree:1.0.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.core:core:1.17.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.core:core:1.17.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.cursoradapter:cursoradapter:1.0.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.cursoradapter:cursoradapter:1.0.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.customview:customview-poolingcontainer:1.0.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.customview:customview-poolingcontainer:1.0.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.customview:customview:1.1.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.customview:customview:1.1.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.datastore:datastore-android:1.2.1",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.datastore:datastore-android:1.2.1",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.datastore:datastore-core-android:1.2.1",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.datastore:datastore-core-android:1.2.1",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.datastore:datastore-core-okio-jvm:1.2.1",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.datastore:datastore-core-okio-jvm:1.2.1",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.datastore:datastore-core-okio:1.2.1",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.datastore:datastore-core-okio:1.2.1",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.datastore:datastore-core:1.2.1",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.datastore:datastore-core:1.2.1",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.datastore:datastore-preferences-android:1.2.1",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.datastore:datastore-preferences-android:1.2.1",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.datastore:datastore-preferences-core-android:1.2.1",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.datastore:datastore-preferences-core-android:1.2.1",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.datastore:datastore-preferences-core:1.2.1",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.datastore:datastore-preferences-core:1.2.1",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.datastore:datastore-preferences-external-protobuf:1.2.1",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "BSD-3-Clause",
+      "licenseName": "BSD-3-Clause",
+      "licenseUrl": "https://opensource.org/licenses/BSD-3-Clause",
+      "licenseSource": "POM androidx.datastore:datastore-preferences-external-protobuf:1.2.1",
+      "displayEntryId": "datastore-external-protobuf"
+    },
+    {
+      "coordinate": "androidx.datastore:datastore-preferences-proto:1.2.1",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.datastore:datastore-preferences-proto:1.2.1",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.datastore:datastore-preferences:1.2.1",
+      "dependencyKind": "direct",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.datastore:datastore-preferences:1.2.1",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.datastore:datastore:1.2.1",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.datastore:datastore:1.2.1",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.drawerlayout:drawerlayout:1.1.1",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.drawerlayout:drawerlayout:1.1.1",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.dynamicanimation:dynamicanimation:1.1.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.dynamicanimation:dynamicanimation:1.1.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.emoji2:emoji2-views-helper:1.4.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.emoji2:emoji2-views-helper:1.4.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.emoji2:emoji2:1.4.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.emoji2:emoji2:1.4.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.fragment:fragment:1.5.7",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.fragment:fragment:1.5.7",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.graphics:graphics-path:1.0.1",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.graphics:graphics-path:1.0.1",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.graphics:graphics-shapes-android:1.0.1",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.graphics:graphics-shapes-android:1.0.1",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.graphics:graphics-shapes:1.0.1",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.graphics:graphics-shapes:1.0.1",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.interpolator:interpolator:1.0.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.interpolator:interpolator:1.0.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.lifecycle:lifecycle-common-java8:2.10.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.lifecycle:lifecycle-common-java8:2.10.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.lifecycle:lifecycle-common-jvm:2.10.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.lifecycle:lifecycle-common-jvm:2.10.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.lifecycle:lifecycle-common:2.10.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.lifecycle:lifecycle-common:2.10.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.lifecycle:lifecycle-livedata-core:2.10.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.lifecycle:lifecycle-livedata-core:2.10.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.lifecycle:lifecycle-process:2.10.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.lifecycle:lifecycle-process:2.10.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.lifecycle:lifecycle-runtime-android:2.10.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.lifecycle:lifecycle-runtime-android:2.10.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.lifecycle:lifecycle-runtime-compose-android:2.10.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.lifecycle:lifecycle-runtime-compose-android:2.10.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.lifecycle:lifecycle-runtime-compose:2.10.0",
+      "dependencyKind": "direct",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.lifecycle:lifecycle-runtime-compose:2.10.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.lifecycle:lifecycle-runtime-ktx-android:2.10.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.lifecycle:lifecycle-runtime-ktx-android:2.10.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.lifecycle:lifecycle-runtime-ktx:2.10.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.lifecycle:lifecycle-runtime-ktx:2.10.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.lifecycle:lifecycle-runtime:2.10.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.lifecycle:lifecycle-runtime:2.10.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.lifecycle:lifecycle-viewmodel-android:2.10.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.lifecycle:lifecycle-viewmodel-android:2.10.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.lifecycle:lifecycle-viewmodel-compose-android:2.10.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.lifecycle:lifecycle-viewmodel-compose-android:2.10.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.lifecycle:lifecycle-viewmodel-compose:2.10.0",
+      "dependencyKind": "direct",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.lifecycle:lifecycle-viewmodel-compose:2.10.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.lifecycle:lifecycle-viewmodel-ktx:2.10.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.lifecycle:lifecycle-viewmodel-ktx:2.10.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.lifecycle:lifecycle-viewmodel-savedstate-android:2.10.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.lifecycle:lifecycle-viewmodel-savedstate-android:2.10.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.lifecycle:lifecycle-viewmodel-savedstate:2.10.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.lifecycle:lifecycle-viewmodel-savedstate:2.10.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.lifecycle:lifecycle-viewmodel:2.10.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.lifecycle:lifecycle-viewmodel:2.10.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.loader:loader:1.1.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.loader:loader:1.1.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.navigation:navigation-common-android:2.9.6",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.navigation:navigation-common-android:2.9.6",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.navigation:navigation-common:2.9.6",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.navigation:navigation-common:2.9.6",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.navigation:navigation-compose-android:2.9.6",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.navigation:navigation-compose-android:2.9.6",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.navigation:navigation-compose:2.9.6",
+      "dependencyKind": "direct",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.navigation:navigation-compose:2.9.6",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.navigation:navigation-runtime-android:2.9.6",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.navigation:navigation-runtime-android:2.9.6",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.navigation:navigation-runtime:2.9.6",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.navigation:navigation-runtime:2.9.6",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.navigationevent:navigationevent-android:1.0.1",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.navigationevent:navigationevent-android:1.0.1",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.navigationevent:navigationevent-compose-android:1.0.1",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.navigationevent:navigationevent-compose-android:1.0.1",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.navigationevent:navigationevent-compose:1.0.1",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.navigationevent:navigationevent-compose:1.0.1",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.navigationevent:navigationevent:1.0.1",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.navigationevent:navigationevent:1.0.1",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.profileinstaller:profileinstaller:1.4.1",
+      "dependencyKind": "direct",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.profileinstaller:profileinstaller:1.4.1",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.recyclerview:recyclerview:1.2.1",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.recyclerview:recyclerview:1.2.1",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.resourceinspection:resourceinspection-annotation:1.0.1",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.resourceinspection:resourceinspection-annotation:1.0.1",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.room:room-common-jvm:2.8.4",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.room:room-common-jvm:2.8.4",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.room:room-common:2.8.4",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.room:room-common:2.8.4",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.room:room-ktx:2.8.4",
+      "dependencyKind": "direct",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.room:room-ktx:2.8.4",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.room:room-runtime-android:2.8.4",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.room:room-runtime-android:2.8.4",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.room:room-runtime:2.8.4",
+      "dependencyKind": "direct",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.room:room-runtime:2.8.4",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.savedstate:savedstate-android:1.4.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.savedstate:savedstate-android:1.4.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.savedstate:savedstate-compose-android:1.4.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.savedstate:savedstate-compose-android:1.4.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.savedstate:savedstate-compose:1.4.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.savedstate:savedstate-compose:1.4.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.savedstate:savedstate-ktx:1.4.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.savedstate:savedstate-ktx:1.4.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.savedstate:savedstate:1.4.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.savedstate:savedstate:1.4.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.sqlite:sqlite-android:2.6.2",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.sqlite:sqlite-android:2.6.2",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.sqlite:sqlite-framework-android:2.6.2",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.sqlite:sqlite-framework-android:2.6.2",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.sqlite:sqlite-framework:2.6.2",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.sqlite:sqlite-framework:2.6.2",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.sqlite:sqlite:2.6.2",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.sqlite:sqlite:2.6.2",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.startup:startup-runtime:1.1.1",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.startup:startup-runtime:1.1.1",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.tracing:tracing:1.2.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.tracing:tracing:1.2.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.transition:transition:1.6.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.transition:transition:1.6.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.vectordrawable:vectordrawable-animated:1.1.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.vectordrawable:vectordrawable-animated:1.1.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.vectordrawable:vectordrawable:1.1.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.vectordrawable:vectordrawable:1.1.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.versionedparcelable:versionedparcelable:1.1.1",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.versionedparcelable:versionedparcelable:1.1.1",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.viewpager2:viewpager2:1.0.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.viewpager2:viewpager2:1.0.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.viewpager:viewpager:1.0.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.viewpager:viewpager:1.0.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.window:window-core-android:1.5.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.window:window-core-android:1.5.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.window:window-core:1.5.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.window:window-core:1.5.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "androidx.window:window:1.5.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM androidx.window:window:1.5.0",
+      "displayEntryId": "androidx"
+    },
+    {
+      "coordinate": "com.github.ajalt.colormath:colormath-jvm:3.6.1",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "MIT",
+      "licenseName": "The MIT License",
+      "licenseUrl": "https://opensource.org/licenses/MIT",
+      "licenseSource": "POM com.github.ajalt.colormath:colormath-jvm:3.6.1",
+      "displayEntryId": "colormath"
+    },
+    {
+      "coordinate": "com.github.ajalt.colormath:colormath:3.6.1",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "MIT",
+      "licenseName": "The MIT License",
+      "licenseUrl": "https://opensource.org/licenses/MIT",
+      "licenseSource": "POM com.github.ajalt.colormath:colormath:3.6.1",
+      "displayEntryId": "colormath"
+    },
+    {
+      "coordinate": "com.google.android.gms:play-services-auth-api-phone:18.0.2",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "ANDROID-SDK-LICENSE",
+      "licenseName": "Android Software Development Kit License",
+      "licenseUrl": "https://developer.android.com/studio/terms.html",
+      "licenseSource": "POM com.google.android.gms:play-services-auth-api-phone:18.0.2",
+      "displayEntryId": null
+    },
+    {
+      "coordinate": "com.google.android.gms:play-services-auth-base:18.0.10",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "ANDROID-SDK-LICENSE",
+      "licenseName": "Android Software Development Kit License",
+      "licenseUrl": "https://developer.android.com/studio/terms.html",
+      "licenseSource": "POM com.google.android.gms:play-services-auth-base:18.0.10",
+      "displayEntryId": null
+    },
+    {
+      "coordinate": "com.google.android.gms:play-services-auth:21.6.0",
+      "dependencyKind": "direct",
+      "licenseIdentifier": "ANDROID-SDK-LICENSE",
+      "licenseName": "Android Software Development Kit License",
+      "licenseUrl": "https://developer.android.com/studio/terms.html",
+      "licenseSource": "POM com.google.android.gms:play-services-auth:21.6.0",
+      "displayEntryId": null
+    },
+    {
+      "coordinate": "com.google.android.gms:play-services-base:18.5.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "ANDROID-SDK-LICENSE",
+      "licenseName": "Android Software Development Kit License",
+      "licenseUrl": "https://developer.android.com/studio/terms.html",
+      "licenseSource": "POM com.google.android.gms:play-services-base:18.5.0",
+      "displayEntryId": null
+    },
+    {
+      "coordinate": "com.google.android.gms:play-services-basement:18.9.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "ANDROID-SDK-LICENSE",
+      "licenseName": "Android Software Development Kit License",
+      "licenseUrl": "https://developer.android.com/studio/terms.html",
+      "licenseSource": "POM com.google.android.gms:play-services-basement:18.9.0",
+      "displayEntryId": null
+    },
+    {
+      "coordinate": "com.google.android.gms:play-services-fido:20.0.1",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "ANDROID-SDK-LICENSE",
+      "licenseName": "Android Software Development Kit License",
+      "licenseUrl": "https://developer.android.com/studio/terms.html",
+      "licenseSource": "POM com.google.android.gms:play-services-fido:20.0.1",
+      "displayEntryId": null
+    },
+    {
+      "coordinate": "com.google.android.gms:play-services-tasks:18.2.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "ANDROID-SDK-LICENSE",
+      "licenseName": "Android Software Development Kit License",
+      "licenseUrl": "https://developer.android.com/studio/terms.html",
+      "licenseSource": "POM com.google.android.gms:play-services-tasks:18.2.0",
+      "displayEntryId": null
+    },
+    {
+      "coordinate": "com.google.android.material:material:1.13.0",
+      "dependencyKind": "direct",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM com.google.android.material:material:1.13.0",
+      "displayEntryId": "material-components"
+    },
+    {
+      "coordinate": "com.google.errorprone:error_prone_annotations:2.15.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "Apache 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM com.google.errorprone:error_prone_annotations:2.15.0",
+      "displayEntryId": "error-prone-annotations"
+    },
+    {
+      "coordinate": "com.google.guava:listenablefuture:1.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "parent POM com.google.guava:guava-parent:26.0-android",
+      "displayEntryId": "guava-listenablefuture"
+    },
+    {
+      "coordinate": "com.materialkolor:material-color-utilities-android:4.0.5",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "MIT",
+      "licenseName": "The MIT License",
+      "licenseUrl": "https://github.com/jordond/materialkolor/blob/master/LICENSE",
+      "licenseSource": "POM com.materialkolor:material-color-utilities-android:4.0.5",
+      "displayEntryId": "materialkolor"
+    },
+    {
+      "coordinate": "com.materialkolor:material-color-utilities:4.0.5",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "MIT",
+      "licenseName": "The MIT License",
+      "licenseUrl": "https://github.com/jordond/materialkolor/blob/master/LICENSE",
+      "licenseSource": "POM com.materialkolor:material-color-utilities:4.0.5",
+      "displayEntryId": "materialkolor"
+    },
+    {
+      "coordinate": "com.materialkolor:material-kolor-android:4.0.5",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "MIT",
+      "licenseName": "The MIT License",
+      "licenseUrl": "https://github.com/jordond/materialkolor/blob/master/LICENSE",
+      "licenseSource": "POM com.materialkolor:material-kolor-android:4.0.5",
+      "displayEntryId": "materialkolor"
+    },
+    {
+      "coordinate": "com.materialkolor:material-kolor:4.0.5",
+      "dependencyKind": "direct",
+      "licenseIdentifier": "MIT",
+      "licenseName": "The MIT License",
+      "licenseUrl": "https://github.com/jordond/materialkolor/blob/master/LICENSE",
+      "licenseSource": "POM com.materialkolor:material-kolor:4.0.5",
+      "displayEntryId": "materialkolor"
+    },
+    {
+      "coordinate": "com.squareup.okio:okio-jvm:3.9.1",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM com.squareup.okio:okio-jvm:3.9.1",
+      "displayEntryId": "okio"
+    },
+    {
+      "coordinate": "com.squareup.okio:okio:3.9.1",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM com.squareup.okio:okio:3.9.1",
+      "displayEntryId": "okio"
+    },
+    {
+      "coordinate": "dev.drewhamilton.poko:poko-annotations-jvm:0.20.2",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM dev.drewhamilton.poko:poko-annotations-jvm:0.20.2",
+      "displayEntryId": "poko-annotations"
+    },
+    {
+      "coordinate": "dev.drewhamilton.poko:poko-annotations:0.20.2",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM dev.drewhamilton.poko:poko-annotations:0.20.2",
+      "displayEntryId": "poko-annotations"
+    },
+    {
+      "coordinate": "org.jetbrains.androidx.lifecycle:lifecycle-common:2.9.6",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM org.jetbrains.androidx.lifecycle:lifecycle-common:2.9.6",
+      "displayEntryId": "compose-multiplatform"
+    },
+    {
+      "coordinate": "org.jetbrains.androidx.lifecycle:lifecycle-runtime-compose:2.9.6",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM org.jetbrains.androidx.lifecycle:lifecycle-runtime-compose:2.9.6",
+      "displayEntryId": "compose-multiplatform"
+    },
+    {
+      "coordinate": "org.jetbrains.androidx.lifecycle:lifecycle-runtime:2.9.6",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM org.jetbrains.androidx.lifecycle:lifecycle-runtime:2.9.6",
+      "displayEntryId": "compose-multiplatform"
+    },
+    {
+      "coordinate": "org.jetbrains.androidx.lifecycle:lifecycle-viewmodel-savedstate:2.9.6",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM org.jetbrains.androidx.lifecycle:lifecycle-viewmodel-savedstate:2.9.6",
+      "displayEntryId": "compose-multiplatform"
+    },
+    {
+      "coordinate": "org.jetbrains.androidx.lifecycle:lifecycle-viewmodel:2.9.6",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM org.jetbrains.androidx.lifecycle:lifecycle-viewmodel:2.9.6",
+      "displayEntryId": "compose-multiplatform"
+    },
+    {
+      "coordinate": "org.jetbrains.androidx.savedstate:savedstate-compose:1.3.6",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM org.jetbrains.androidx.savedstate:savedstate-compose:1.3.6",
+      "displayEntryId": "compose-multiplatform"
+    },
+    {
+      "coordinate": "org.jetbrains.androidx.savedstate:savedstate:1.3.6",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM org.jetbrains.androidx.savedstate:savedstate:1.3.6",
+      "displayEntryId": "compose-multiplatform"
+    },
+    {
+      "coordinate": "org.jetbrains.compose.animation:animation-core:1.9.0-beta03",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM org.jetbrains.compose.animation:animation-core:1.9.0-beta03",
+      "displayEntryId": "compose-multiplatform"
+    },
+    {
+      "coordinate": "org.jetbrains.compose.animation:animation:1.9.0-beta03",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM org.jetbrains.compose.animation:animation:1.9.0-beta03",
+      "displayEntryId": "compose-multiplatform"
+    },
+    {
+      "coordinate": "org.jetbrains.compose.annotation-internal:annotation:1.9.3",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM org.jetbrains.compose.annotation-internal:annotation:1.9.3",
+      "displayEntryId": "compose-multiplatform"
+    },
+    {
+      "coordinate": "org.jetbrains.compose.collection-internal:collection:1.9.3",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM org.jetbrains.compose.collection-internal:collection:1.9.3",
+      "displayEntryId": "compose-multiplatform"
+    },
+    {
+      "coordinate": "org.jetbrains.compose.foundation:foundation-layout:1.9.0-beta03",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM org.jetbrains.compose.foundation:foundation-layout:1.9.0-beta03",
+      "displayEntryId": "compose-multiplatform"
+    },
+    {
+      "coordinate": "org.jetbrains.compose.foundation:foundation:1.9.0-beta03",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM org.jetbrains.compose.foundation:foundation:1.9.0-beta03",
+      "displayEntryId": "compose-multiplatform"
+    },
+    {
+      "coordinate": "org.jetbrains.compose.material3:material3:1.9.0-beta03",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM org.jetbrains.compose.material3:material3:1.9.0-beta03",
+      "displayEntryId": "compose-multiplatform"
+    },
+    {
+      "coordinate": "org.jetbrains.compose.material:material-ripple:1.9.0-beta03",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM org.jetbrains.compose.material:material-ripple:1.9.0-beta03",
+      "displayEntryId": "compose-multiplatform"
+    },
+    {
+      "coordinate": "org.jetbrains.compose.runtime:runtime-saveable:1.9.3",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM org.jetbrains.compose.runtime:runtime-saveable:1.9.3",
+      "displayEntryId": "compose-multiplatform"
+    },
+    {
+      "coordinate": "org.jetbrains.compose.runtime:runtime:1.9.3",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM org.jetbrains.compose.runtime:runtime:1.9.3",
+      "displayEntryId": "compose-multiplatform"
+    },
+    {
+      "coordinate": "org.jetbrains.compose.ui:ui-backhandler-android:1.9.0-beta03",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM org.jetbrains.compose.ui:ui-backhandler-android:1.9.0-beta03",
+      "displayEntryId": "compose-multiplatform"
+    },
+    {
+      "coordinate": "org.jetbrains.compose.ui:ui-backhandler:1.9.0-beta03",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM org.jetbrains.compose.ui:ui-backhandler:1.9.0-beta03",
+      "displayEntryId": "compose-multiplatform"
+    },
+    {
+      "coordinate": "org.jetbrains.compose.ui:ui-geometry:1.9.3",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM org.jetbrains.compose.ui:ui-geometry:1.9.3",
+      "displayEntryId": "compose-multiplatform"
+    },
+    {
+      "coordinate": "org.jetbrains.compose.ui:ui-graphics:1.9.3",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM org.jetbrains.compose.ui:ui-graphics:1.9.3",
+      "displayEntryId": "compose-multiplatform"
+    },
+    {
+      "coordinate": "org.jetbrains.compose.ui:ui-text:1.9.3",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM org.jetbrains.compose.ui:ui-text:1.9.3",
+      "displayEntryId": "compose-multiplatform"
+    },
+    {
+      "coordinate": "org.jetbrains.compose.ui:ui-unit:1.9.3",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM org.jetbrains.compose.ui:ui-unit:1.9.3",
+      "displayEntryId": "compose-multiplatform"
+    },
+    {
+      "coordinate": "org.jetbrains.compose.ui:ui-util:1.9.3",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM org.jetbrains.compose.ui:ui-util:1.9.3",
+      "displayEntryId": "compose-multiplatform"
+    },
+    {
+      "coordinate": "org.jetbrains.compose.ui:ui:1.9.3",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM org.jetbrains.compose.ui:ui:1.9.3",
+      "displayEntryId": "compose-multiplatform"
+    },
+    {
+      "coordinate": "org.jetbrains.kotlin:kotlin-bom:1.8.22",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM org.jetbrains.kotlin:kotlin-bom:1.8.22",
+      "displayEntryId": "kotlin"
+    },
+    {
+      "coordinate": "org.jetbrains.kotlin:kotlin-stdlib-common:2.3.21",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "Apache-2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM org.jetbrains.kotlin:kotlin-stdlib-common:2.3.21",
+      "displayEntryId": "kotlin"
+    },
+    {
+      "coordinate": "org.jetbrains.kotlin:kotlin-stdlib:2.3.21",
+      "dependencyKind": "direct",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "Apache-2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM org.jetbrains.kotlin:kotlin-stdlib:2.3.21",
+      "displayEntryId": "kotlin"
+    },
+    {
+      "coordinate": "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.9.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM org.jetbrains.kotlinx:kotlinx-coroutines-android:1.9.0",
+      "displayEntryId": "kotlin-coroutines"
+    },
+    {
+      "coordinate": "org.jetbrains.kotlinx:kotlinx-coroutines-bom:1.9.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM org.jetbrains.kotlinx:kotlinx-coroutines-bom:1.9.0",
+      "displayEntryId": "kotlin-coroutines"
+    },
+    {
+      "coordinate": "org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.9.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.9.0",
+      "displayEntryId": "kotlin-coroutines"
+    },
+    {
+      "coordinate": "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.9.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM org.jetbrains.kotlinx:kotlinx-coroutines-core:1.9.0",
+      "displayEntryId": "kotlin-coroutines"
+    },
+    {
+      "coordinate": "org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.9.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.9.0",
+      "displayEntryId": "kotlin-coroutines"
+    },
+    {
+      "coordinate": "org.jetbrains.kotlinx:kotlinx-serialization-bom:1.11.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "Apache-2.0",
+      "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM org.jetbrains.kotlinx:kotlinx-serialization-bom:1.11.0",
+      "displayEntryId": "kotlin-serialization"
+    },
+    {
+      "coordinate": "org.jetbrains.kotlinx:kotlinx-serialization-core-jvm:1.11.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "Apache-2.0",
+      "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM org.jetbrains.kotlinx:kotlinx-serialization-core-jvm:1.11.0",
+      "displayEntryId": "kotlin-serialization"
+    },
+    {
+      "coordinate": "org.jetbrains.kotlinx:kotlinx-serialization-core:1.11.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "Apache-2.0",
+      "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM org.jetbrains.kotlinx:kotlinx-serialization-core:1.11.0",
+      "displayEntryId": "kotlin-serialization"
+    },
+    {
+      "coordinate": "org.jetbrains.kotlinx:kotlinx-serialization-json-jvm:1.11.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "Apache-2.0",
+      "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM org.jetbrains.kotlinx:kotlinx-serialization-json-jvm:1.11.0",
+      "displayEntryId": "kotlin-serialization"
+    },
+    {
+      "coordinate": "org.jetbrains.kotlinx:kotlinx-serialization-json:1.11.0",
+      "dependencyKind": "direct",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "Apache-2.0",
+      "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM org.jetbrains.kotlinx:kotlinx-serialization-json:1.11.0",
+      "displayEntryId": "kotlin-serialization"
+    },
+    {
+      "coordinate": "org.jetbrains:annotations:23.0.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache Software License, Version 2.0",
+      "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM org.jetbrains:annotations:23.0.0",
+      "displayEntryId": "jetbrains-annotations"
+    },
+    {
+      "coordinate": "org.jspecify:jspecify:1.0.0",
+      "dependencyKind": "transitive",
+      "licenseIdentifier": "Apache-2.0",
+      "licenseName": "The Apache License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "licenseSource": "POM org.jspecify:jspecify:1.0.0",
+      "displayEntryId": "jspecify"
+    }
+  ]
+}

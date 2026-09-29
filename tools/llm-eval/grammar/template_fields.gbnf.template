@@ -1,0 +1,7 @@
+# Generated per template: {{FIELDS}} expands to one "\"<field>\":" ws strornull line per schema field,
+# in the schema's order, joined by "," — so the model can only fill the declared fields.
+root ::= "{" ws "\"templateId\":" ws "\"{{TEMPLATE_ID}}\"" "," ws "\"fields\":" ws "{" ws {{FIELDS}} ws "}" "," ws "\"missingFields\":" ws strarray ws "}"
+strornull ::= string | "null"
+strarray ::= "[" ws ( string ( ws "," ws string )* )? ws "]"
+string ::= "\"" ( [^"\\\x7F\x00-\x1F] | "\\" ( ["\\/bfnrt] | "u" [0-9a-fA-F]{4} ) )* "\""
+ws ::= [ \t\n]{0,4}

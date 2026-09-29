@@ -1,0 +1,39 @@
+# Android / Gradle
+*.iml
+.gradle/
+.idea/
+build/
+**/build/
+captures/
+.externalNativeBuild/
+.cxx/
+llmbench/.cxx/
+app/.cxx/
+# Kotlin 2.x compiler session directory, left behind by every build
+/.kotlin/
+.DS_Store
+
+# Machine-local configuration and secrets — never commit these
+local.properties
+keystore.properties
+developer.properties
+.env
+.env.*
+google-services.json
+client_secret*.json
+*service-account*.json
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+
+# Build artifacts
+*.apk
+*.aab
+mapping.txt
+
+# Local AI model files (downloaded at run time, never bundled)
+*.gguf
+/models/
+tools/llm-eval/models/

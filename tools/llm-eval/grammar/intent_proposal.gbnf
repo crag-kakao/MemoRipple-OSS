@@ -1,0 +1,21 @@
+# IntentProposal — constrained output for categories A, B, C, E (and the intent half of F).
+# Field order is fixed so the model never invents keys; values are JSON strings or null.
+# (The body is parenthesised because llama.cpp's GBNF parser only allows a rule to continue
+#  across lines inside parentheses.)
+root ::= ( "{" ws "\"intent\":" ws intent "," ws
+             "\"query\":" ws strornull "," ws
+             "\"targetRef\":" ws refornull "," ws
+             "\"targetName\":" ws strornull "," ws
+             "\"documentKind\":" ws kindornull "," ws
+             "\"text\":" ws strornull "," ws
+             "\"templateId\":" ws strornull "," ws
+             "\"dateToken\":" ws dateornull "," ws
+             "\"missingFields\":" ws strarray ws "}" )
+intent ::= "\"SEARCH\"" | "\"OPEN\"" | "\"CREATE\"" | "\"APPEND\"" | "\"USE_TEMPLATE\"" | "\"UNKNOWN\""
+kindornull ::= "\"MEMO\"" | "\"OUTLINE\"" | "\"JOURNAL\"" | "null"
+dateornull ::= "\"TODAY\"" | "\"YESTERDAY\"" | "\"THIS_WEEK\"" | "\"LAST_WEEK\"" | "null"
+refornull ::= "\"result_" [1-9] [0-9]? "\"" | "null"
+strornull ::= string | "null"
+strarray ::= "[" ws ( string ( ws "," ws string )* )? ws "]"
+string ::= "\"" ( [^"\\\x7F\x00-\x1F] | "\\" ( ["\\/bfnrt] | "u" [0-9a-fA-F]{4} ) )* "\""
+ws ::= [ \t\n]{0,4}

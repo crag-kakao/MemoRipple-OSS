@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Night outranks version among resource qualifiers, so a dark device on Android 12+ reads
+     values-night and never sees values-v31: the splash items must be said again here, over the
+     night palette, or the launch window falls back to the system's icon-and-white default. -->
+<resources>
+    <style name="Theme.MemoRipple" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/memo_primary</item>
+        <item name="colorOnPrimary">@color/memo_on_primary</item>
+        <item name="colorSecondary">@color/memo_secondary</item>
+        <item name="android:colorBackground">@color/memo_background</item>
+        <item name="colorOnBackground">@color/memo_on_background</item>
+        <item name="android:windowBackground">@color/memo_background</item>
+        <item name="android:windowSplashScreenBackground">@color/memo_background</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/splash_icon_none</item>
+        <item name="android:windowActionModeOverlay">true</item>
+    </style>
+</resources>
