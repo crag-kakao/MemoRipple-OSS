@@ -43,14 +43,16 @@ Android アプリです。このリポジトリはそのソースコードです
 
 <table>
   <tr>
-    <td align="center"><img src="docs/screenshots/memo.png" width="240" alt="Memo list"><br>Memo list</td>
-    <td align="center"><img src="docs/screenshots/comments.png" width="240" alt="Flowing comments on a memo"><br>Flowing comments</td>
-    <td align="center"><img src="docs/screenshots/calendar.png" width="240" alt="Calendar with the month's records"><br>Calendar</td>
+    <td width="50%" align="center"><img src="docs/screenshots/memo.png" width="260" alt="Memo list"><br>Memo list</td>
+    <td width="50%" align="center"><img src="docs/screenshots/comments.png" width="260" alt="Flowing comments on a memo"><br>Flowing comments</td>
   </tr>
   <tr>
-    <td align="center"><img src="docs/screenshots/diary.png" width="240" alt="Diary entry"><br>Diary</td>
-    <td align="center"><img src="docs/screenshots/note.png" width="240" alt="Notebook with episodes"><br>Notebook</td>
-    <td align="center"><img src="docs/screenshots/chat.png" width="240" alt="Chat running a search template"><br>Chat (template, no AI model)</td>
+    <td width="50%" align="center"><img src="docs/screenshots/calendar.png" width="260" alt="Calendar with the month's records"><br>Calendar</td>
+    <td width="50%" align="center"><img src="docs/screenshots/diary.png" width="260" alt="Diary entry"><br>Diary</td>
+  </tr>
+  <tr>
+    <td width="50%" align="center"><img src="docs/screenshots/note.png" width="260" alt="Notebook with episodes"><br>Notebook</td>
+    <td width="50%" align="center"><img src="docs/screenshots/chat.png" width="260" alt="Chat running a search template"><br>Chat (template, no AI model)</td>
   </tr>
 </table>
 
